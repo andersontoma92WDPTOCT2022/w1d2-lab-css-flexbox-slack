@@ -8,3 +8,32 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+/*----iteração 1----*/
+/* Iteração 1 768px */
+.background-purple {
+  background-color: #540b51;
+}
+.background-ivory {
+  background-color: #f3eae2;
+}
+.imagem {
+  width: 100%;
+}
+body {
+  font-family: 'awesome';
+}
+
+/*---outras iterações---*/
+/* Iteração 2 */
+
+/* Iteração 2 */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Iteração 3 */
+@media all and (min-width: 1025px) and (max-width: 1440px) {
+}
+
+/* Iteração 4 */
+@media all and (min-width: 1441px) {
+}
