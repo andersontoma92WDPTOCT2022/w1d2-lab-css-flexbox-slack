@@ -61,12 +61,12 @@ body {
   background-color: white;
 }
 
-.container-trusted-companies > img {
+.trusted-companies-img-25 {
   width: 25%;
 }
 
-.image-aumenta {
-  width: 100%;
+.trusted-companies-img-40 {
+  width: 40%;
 }
 
 body {
@@ -134,13 +134,19 @@ h3 {
   }
   .container-trusted-companies {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     padding: 5% 5%;
   }
-  .container-trusted-companies > img {
-    width: 15%;
+
+  .trusted-companies-img-25 {
+    width: 12%;
   }
+
+  .trusted-companies-img-40 {
+    width: 25%;
+  }
+
   header {
     padding-bottom: 10%;
   }
