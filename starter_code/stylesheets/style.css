@@ -16,6 +16,7 @@ body {
 }
 .background-purple {
   background-color: #540b51;
+  padding-left: 5%;
 }
 .background-ivory {
   background-color: #f3eae2;
@@ -32,6 +33,7 @@ body {
 
 .nav-button {
   background-color: #540b51;
+  border: none;
 }
 
 .container-btn-google-sign {
@@ -62,6 +64,11 @@ body {
 .container-trusted-companies > img {
   width: 25%;
 }
+
+.image-aumenta {
+  width: 100%;
+}
+
 body {
   font-family: 'awesome';
 }
@@ -83,6 +90,10 @@ nav > div > ul {
 /*--------header-------*/
 h1 {
   text-align: center;
+  color: white;
+  padding: 5% 5% 0 5%;
+  margin-bottom: 0;
+  font-weight: bold;
 }
 p,
 a,
@@ -129,6 +140,9 @@ h3 {
   }
   .container-trusted-companies > img {
     width: 15%;
+  }
+  header {
+    padding-bottom: 10%;
   }
 }
 
