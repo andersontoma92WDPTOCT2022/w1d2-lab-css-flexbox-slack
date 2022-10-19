@@ -13,10 +13,11 @@ footer links grey: #454245
 body {
   min-height: 600px;
   max-width: 760px;
+  font-family: 'awesome';
 }
 .background-purple {
   background-color: #540b51;
-  padding-left: 5%;
+  padding: 5% 5%;
 }
 .background-ivory {
   background-color: #f3eae2;
@@ -28,7 +29,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-evenly;
   padding: 5% 5%;
+  margin-left: 5%;
 }
 
 .nav-button {
@@ -41,20 +44,19 @@ body {
   flex-direction: column;
   align-items: stretch;
   height: 100px;
-  width: 90%;
+  width: 85%;
+  margin: 0 0 0 5%;
 
-  padding-left: 5%;
+  padding: 5% 5%;
 }
 .button-sign {
   height: 50px;
-  border-radius: 10%;
+  border-radius: 3%;
 }
 .button-google {
   background-color: dodgerblue;
-  height: 50px;
-  align-content: center;
   margin-bottom: 10px;
-  border-radius: 10%;
+  border-radius: 3%;
 }
 .img-google {
   width: 30px;
@@ -62,24 +64,19 @@ body {
 }
 
 .trusted-companies-img-25 {
-  width: 25%;
+  width: 20%;
 }
 
 .trusted-companies-img-40 {
   width: 40%;
 }
 
-body {
-  font-family: 'awesome';
-}
 nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
+  padding-left: 50px;
 }
-nav > div {
-  display: flex;
-}
+
 nav > div > img {
   height: 25px;
 }
@@ -91,18 +88,19 @@ nav > div > ul {
 h1 {
   text-align: center;
   color: white;
-  padding: 5% 5% 0 5%;
+  padding: 5% 5% 5% 5%;
   margin-bottom: 0;
   font-weight: bold;
 }
+
 p,
 a,
-h1,
 h2,
 h3 {
   margin-top: 0px;
   padding-top: 20px;
-  padding-left: 10px;
+  padding-left: 5%;
+  margin-left: 5%;
 }
 
 /*----  footer  ----*/
@@ -113,6 +111,11 @@ h3 {
 .footer-ul-links {
   display: flex;
   justify-content: space-evenly;
+}
+
+.footer-img-slack {
+  width: 10%;
+  padding-left: 10%;
 }
 /*---outras iterações---*/
 /* Iteração 2 */
